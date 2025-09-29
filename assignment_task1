@@ -1,0 +1,36 @@
+# Assignment 1 - Literature
+
+## 1. Research article
+Moody et al. 2023, *A single-cell atlas of transcribed cis-regulatory elements in the human genome*
+
+---
+
+## 2. Questions
+
+### a. What is the medically relevant insight from the article?
+This study presents the first single-cell atlas of transcribed cis-regulatory elements (tCREs), built from more than 340,000 cells across 23 human tissues, annotating over 175,000 tCREs.  
+
+**Key findings:**
+- Many disease-associated variants lie in non-coding CREs; this work links those variants to cell type–specific regulatory elements.  
+- The atlas uncovers how specific cell populations contribute to disease heritability, including Crohn’s disease, ulcerative colitis, myocardial infarction, autoimmune conditions, and neurodegenerative diseases.  
+- It provides a framework to pinpoint which cell types and regulatory programs underlie complex traits, advancing prospects for diagnostics and therapeutic targeting.  
+
+### b. Which genomics technology/technologies were used?
+- Single-cell 5′ RNA-seq (sc-5′-RNA-seq) to map transcription start sites and identify tCREs.  
+- scATAC-seq for comparison of chromatin accessibility and validation of CRE activity.  
+- Promoter-capture Hi-C, HiChIP, Hi-C to infer promoter–distal CRE interactions.  
+- Integration with public resources (ENCODE, FANTOM5, etc.) to validate epigenomic relevance.  
+
+---
+
+## 3. Further related research questions
+
+### a. List and explain at least three questions/hypotheses extending the analysis
+1. **How do non-coding SNPs located in tCREs alter gene regulation and drive risk in diseases such as IBD?**  
+   → Testing whether variants in tCREs disrupt gene expression in disease-relevant cell types.  
+
+2. **Which tCREs become activated during immune cell activation, differentiation, or stress responses, and how do these contribute to disease susceptibility?**  
+   → Dynamic profiling of immune cells under stimulation or in inflamed tissues.  
+
+3. **Can we identify common regulatory modules across autoimmune diseases versus disease-specific modules?**  
+   → This could highlight shared pathways or unique therapeutic targets.  
